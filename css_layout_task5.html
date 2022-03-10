@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Grid and Flex: task 5</title>
+
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      .card {
+        display: grid;
+        grid-template-rows: 200px min-content;
+      }
+
+      .card > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .tags {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .tags > * {
+        background-color: #999;
+        color: #fff;
+        padding: 0.2em 0.8em;
+        border-radius: 0.2em;
+        font-size: 80%;
+        margin: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Question Header-->
+    <a
+      style="font-weight: bold; color: blue; display: block"
+      href="index.html"
+      target="_blank"
+    >
+      CMP621A - Grid Task List
+    </a>
+    <a
+      style="font-weight: bold; color: red; display: block"
+      href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills#grid_and_flex_layout_4"
+      target="_blank"
+    >
+      Task Description: Grid and Flexbox Skills
+    </a>
+    <div>Goal:</div>
+    <img
+      style="border: 5px solid black; border-radius: 2%"
+      src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task4.png"
+      alt="Goal"
+      width="50%"
+    />
+    <div
+      style="
+        height: 50px;
+        border-bottom: dashed red;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      "
+    >
+      You will need to use BOTH Grid Layout and Flexbox to recreate the example
+      as seen in the image. You do NOT NEED to make any changes to the HTML in
+      order to do this. You will also need a flexbox property (flex-wrap:
+      wrap;).
+    </div>
+    <!--END of Question Header-->
+
+    <div class="container">
+      <div class="card">
+        <img src="img/balloons1.jpg" alt="a single red balloon" />
+        <ul class="tags">
+          <li>balloon</li>
+          <li>red</li>
+          <li>sky</li>
+          <li>blue</li>
+          <li>Hot air balloon</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="img/balloons2.jpg" alt="balloons over some houses" />
+        <ul class="tags">
+          <li>balloons</li>
+          <li>houses</li>
+          <li>train</li>
+          <li>harborside</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="img/balloons3.jpg" alt="close-up of balloons inflating" />
+        <ul class="tags">
+          <li>balloons</li>
+          <li>inflating</li>
+          <li>green</li>
+          <li>blue</li>
+        </ul>
+      </div>
+      <div class="card">
+        <img src="img/balloons4.jpg" alt="a balloon in the sun" />
+        <ul class="tags">
+          <li>balloon</li>
+          <li>sun</li>
+          <li>sky</li>
+          <li>summer</li>
+          <li>bright</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

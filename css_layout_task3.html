@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Grid: task 3</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      .grid > * {
+        background-color: #4d7298;
+        border: 2px solid #77a6b6;
+        border-radius: 0.5em;
+        color: #fff;
+        padding: 0.5em;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+      }
+
+      /*You will need to select each GRID ITEM and add CSS*/
+    </style>
+  </head>
+
+  <body>
+    <!--Question Header-->
+    <a
+      style="font-weight: bold; color: blue; display: block"
+      href="index.html"
+      target="_blank"
+    >
+      CMP621A - Grid Task List
+    </a>
+    <a
+      style="font-weight: bold; color: red; display: block"
+      href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills#grid_layout_three"
+      target="_blank"
+    >
+      Task Description: Grid Skills
+    </a>
+    <div>Goal:</div>
+    <img
+      style="border: 5px solid black; border-radius: 2%"
+      src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills/grid-task3.png"
+      alt="Goal"
+      width="50%"
+    />
+    <div
+      style="height: 50px; border-bottom: dashed red; margin-bottom: 10px"
+    ></div>
+    <!--END of Question Header-->
+    <div class="grid">
+      <div class="one">One</div>
+      <div class="two">Two</div>
+      <div class="three">Three</div>
+      <div class="four">Four</div>
+    </div>
+  </body>
+</html>

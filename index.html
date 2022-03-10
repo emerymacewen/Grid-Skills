@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Grid: task 1</title>
+
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+      .container {
+        display: grid;
+        height: 80vh;
+        grid-template-rows: auto 1fr auto;
+      }
+      .row {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+      }
+      .card {
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>CMP621A CSS Grid Layout Tasks</h1>
+        <p>
+          For each task: use an editor (VS Code) to edit the CSS to make the
+          grid match the GOAL picture. <br />
+          Commit and push your repo once you are done.
+        </p>
+      </header>
+      <div class="row">
+        <div class="card">
+          <!--Question Info and Link-->
+          <a
+            style="font-weight: bold; color: blue; display: block"
+            href="css_layout_task1.html"
+          >
+            Grid Task 1
+          </a>
+        </div>
+        <!--Question Info and Link-->
+        <div class="card">
+          <a
+            style="font-weight: bold; color: blue; display: block"
+            href="css_layout_task2.html"
+          >
+            Grid Task 2
+          </a>
+        </div>
+        <!--Question Info and Link-->
+        <div class="card">
+          <a
+            style="font-weight: bold; color: blue; display: block"
+            href="css_layout_task3.html"
+          >
+            Grid Task 3
+          </a>
+        </div>
+        <!--Question Info and Link-->
+        <div class="card">
+          <a
+            style="font-weight: bold; color: blue; display: block"
+            href="css_layout_task4.html"
+          >
+            Grid Task 4
+          </a>
+        </div>
+        <!--Question Info and Link-->
+        <div class="card">
+          <a
+            style="font-weight: bold; color: blue; display: block"
+            href="css_layout_task5.html"
+          >
+            Grid & Flexbox Task 5
+          </a>
+        </div>
+      </div>
+      <footer>
+        Questions adapted from:
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills"
+        >
+          https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
